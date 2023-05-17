@@ -1,0 +1,10 @@
+.moon {
+  background-image: url(../../images/moon.jpg);
+  background-size: cover !important;
+}
+.title {
+  text-align: center;
+  text-shadow: 0 0.3em 0.1em black;
+  font-size: 3em;
+  text-transform: uppercase;
+}
