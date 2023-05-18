@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+}
+.paralax {
+}
+.bg {
+  position: absolute;
+  /* top: -30em; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* width: 2800px; */
+  /* top: calc(50%); */
+}
+.mountain_10,
+.mountain_9,
+.mountain_8,
+.mountain_7,
+.mountain_6,
+.mountain_5,
+.mountain_4,
+.mountain_3,
+.mountain_2,
+.mountain_1 {
+  position: absolute;
+  width: 10em;
+}
+.mountain_10 {
+  width: 80em;
+}
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
