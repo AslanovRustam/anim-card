@@ -10,7 +10,7 @@
 }
 .logo {
   width: 2em;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 header {
   width: 100vw;
@@ -27,7 +27,7 @@ nav {
 }
 .item {
   margin: 0 1em;
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .hamburger {
   width: 3em;
@@ -38,7 +38,7 @@ nav {
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 .line {
   position: relative;
