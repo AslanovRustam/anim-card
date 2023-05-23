@@ -61,7 +61,7 @@ export default function Cursor() {
     addLinkEvents();
     addEventListeners();
     return () => removeEventListeners();
-  }, []);
+  });
 
   return (
     <div className={styles.wraper}>

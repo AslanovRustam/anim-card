@@ -10,7 +10,11 @@
 }
 .logo {
   width: 2em;
-  /* cursor: pointer; */
+  transition: all 0.3s ease-in-out;
+}
+.logo:hover,
+.logo:focus {
+  transform: scale(1.1);
 }
 header {
   width: 100vw;

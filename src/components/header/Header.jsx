@@ -1,5 +1,6 @@
 import s from "./header.module.css";
 import logo from "../../images/LinkedIn.png";
+import SmoothScrollTo from "../../helpers/smoothScroll";
 
 export default function Header() {
   return (
@@ -13,8 +14,9 @@ export default function Header() {
           />
         </a>
         <ul className={s.list}>
-          <li className={s.item}>top</li>
-          <li className={s.item}>animation</li>
+          <li className={s.item}>
+            <SmoothScrollTo targetId="animation">animation</SmoothScrollTo>
+          </li>
           <li className={s.item}>contacts</li>
           <li className={s.hamburger}>
             <div className={s.line}></div>

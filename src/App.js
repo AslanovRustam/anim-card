@@ -2,6 +2,7 @@ import Header from "./components/header/Header";
 import Main from "./components/main/Main";
 import Paralax from "./components/paralax/Paralax";
 import Cursor from "./components/cursor/Cursor";
+import Footer from "./components/footer/Footer";
 function App() {
   return (
     <>
@@ -9,6 +10,7 @@ function App() {
       {/* <Header /> */}
       <Main />
       {/* <Paralax /> */}
+      {/* <Footer /> */}
     </>
   );
 }
